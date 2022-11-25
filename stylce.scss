@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+$font-nunito:'Nunito', sans-serif;
+@import "./header"; 
+@import "./main"; 
+@import "./adaptability"; 
+body{
+    margin: 0;
+}
+.row{
+    display: flex;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}

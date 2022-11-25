@@ -1,0 +1,22 @@
+/* phone(xs-extra small) */
+@media(max-width:767px){
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 375px;
+    }
+    .row{
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;     
+    }
+}
+
+/* desktop(lg-large) */
+@media(min-width:1200px){
+    .container{
+        width: 1408px;
+    }
+}

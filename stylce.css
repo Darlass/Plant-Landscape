@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0C4B35;
+  color: white;
+}
+header .email-icon {
+  background: url();
+}
+
+/* phone(xs-extra small) */
+@media (max-width: 767px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 375px;
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+/* desktop(lg-large) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1408px;
+  }
+}
+body {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}/*# sourceMappingURL=stylce.css.map */
