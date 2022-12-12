@@ -1,0 +1,325 @@
+/* laptop(md-medium) */
+@media(min-width:992px) and (max-width:1119px){
+    .container{
+        max-width: 999px;
+    }
+    [class*="contact"]{
+        display: flex;
+        align-items: center;
+    }
+    .contact-info-header{
+        padding-right: 30px;
+    }
+    .menu{
+        li{
+            margin: 0px 20px 0px 20px;
+        }
+    }
+    .call-us{
+        display: flex;
+        align-items: center;
+        background-color: #00730C;
+        color: white;
+        border-radius:5px;
+        padding: 13px 20px 13px 20px;
+        border: 1px solid #00730C; 
+        cursor: pointer;
+        &:active{
+            background-color: #35843d;
+        }  
+        h3{
+            font-family: $font-nunito;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            margin: 0;
+        }
+        .call-icon{
+            background: url(images/call-msg.png) no-repeat center;
+            width: 30px;
+            height: 27px;
+            margin-right: 10px;
+        }
+    }
+    .photo-xs{
+        background: url(images/main-1-197x278.png) no-repeat center;
+        width: 197px;
+        height: 278px;
+        position: absolute;
+        bottom:60px;
+        left: 0;
+        align-self: flex-end;
+    }
+    .info-bilboard{
+        margin: 0px 93px 10px 60px;
+        h4{
+            display: flex;
+            font-family: $font-nunito;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0px;
+            .icon-plant{
+                background: url(images/detail-plant.png) no-repeat center;
+                width: 24px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+        h2{
+            margin: 20px 0px 20px 0px;
+            span{
+                color: #00730c;
+            }
+            font-family: $font-nunito;
+            font-size: 58px;
+            font-weight: 800;
+            line-height: 79px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        p{
+            font-family: $font-nunito;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(103, 103, 103, 1);
+            width: 556px;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 70px;
+            .get-quate-button{
+                border-radius: 5px;
+                border: 1px solid #00730c;
+                padding: 13px 35px 13px 35px;
+                background-color: #00730c;
+                color: white;
+                font-family: $font-nunito;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                cursor: pointer;
+            }
+            .see-how-it-works{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $font-nunito;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: rgba(103, 103, 103, 1);
+                border: none;
+                background: transparent;
+                margin-left: 30px;
+                cursor: pointer;
+                .arrow-right-grey{
+                    background: url(images/arrow-right-grey.png) no-repeat center;
+                    width: 20px;
+                    height: 16px;
+                    margin-left: 15px;
+                }
+            }
+        }
+        .box{
+            display: flex;
+            .mini-box{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-right: 20px;
+                font-family: $font-nunito;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0px;
+                text-align: left;
+                .num{
+                    margin-right: 10px;
+                    border-radius: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(249, 249, 249, 1) 90.23%);
+                }
+            }
+        }
+    }
+}
+
+/* desktop(lg-large) */
+@media(min-width:1200px){
+    .container{
+        max-width: 1408px;
+    }
+    [class*="contact"]{
+        display: flex;
+        align-items: center;
+    }
+    .contact-info-header{
+        padding-right: 30px;
+    }
+    .menu{
+        li{
+            margin: 0px 40px 0px 40px;
+        }
+    }
+    .call-us{
+        display: flex;
+        align-items: center;
+        background-color: #00730C;
+        color: white;
+        border-radius:5px;
+        padding: 13px 34px 13px 34px;
+        border: 1px solid #00730C; 
+        cursor: pointer; 
+        &:active{
+            background-color: #35843d;
+        }  
+        h3{
+            font-family: $font-nunito;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            margin: 0;
+        }
+        .call-icon{
+            background: url(images/call-msg.png) no-repeat center;
+            width: 30px;
+            height: 27px;
+            margin-right: 10px;
+        }
+    }
+    .photo-xs{
+        background: url(images/main-1-197x278.png) no-repeat center;
+        width: 197px;
+        height: 278px;
+        position: absolute;
+        bottom:60px;
+        left: 0;
+        align-self: flex-end;
+    }
+    .billbord{
+        padding-top: 46px;  
+    }
+    .info-bilboard{
+        margin: 0px 93px 10px 60px;
+        h4{
+            display: flex;
+            font-family: $font-nunito;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0px;
+            .icon-plant{
+                background: url(images/detail-plant.png) no-repeat center;
+                width: 24px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+        h2{
+            margin: 20px 0px 20px 0px;
+            span{
+                color: #00730c;
+            }
+            font-family: $font-nunito;
+            font-size: 58px;
+            font-weight: 800;
+            line-height: 79px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        p{
+            font-family: $font-nunito;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(103, 103, 103, 1);
+            width: 556px;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 70px;
+            .get-quate-button{
+                border-radius: 5px;
+                border: 1px solid #00730c;
+                padding: 13px 35px 13px 35px;
+                background-color: #00730c;
+                color: white;
+                font-family: $font-nunito;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                cursor: pointer;
+            }
+            .see-how-it-works{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $font-nunito;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: rgba(103, 103, 103, 1);
+                border: none;
+                background: transparent;
+                margin-left: 30px;
+                cursor: pointer;
+                .arrow-right-grey{
+                    background: url(images/arrow-right-grey.png) no-repeat center;
+                    width: 20px;
+                    height: 16px;
+                    margin-left: 15px;
+                }
+            }
+        }
+        .box{
+            display: flex;
+            [class*="mini-box"]{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-right: 20px;
+                font-family: $font-nunito;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0px;
+                text-align: left;
+                .num{
+                    margin-right: 10px;
+                    border-radius: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(249, 249, 249, 1) 90.23%);
+                }
+                h4{
+                    width: 89px;
+                }
+            }
+        }
+    }
+}

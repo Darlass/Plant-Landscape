@@ -5,7 +5,8 @@
 $font-nunito:'Nunito', sans-serif;
 @import "./header"; 
 @import "./main"; 
-@import "./adaptability"; 
+@import "./xs-sm"; 
+@import "./md-lg"; 
 body{
     margin: 0;
 }

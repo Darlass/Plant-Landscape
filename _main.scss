@@ -1,0 +1,498 @@
+.billbord {
+    position: relative;
+    background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+    display: flex;
+    justify-content: flex-end;
+}
+.services-we-provide {
+    margin-top: 100px;
+    .plant-side {
+        background: url(images/plant-side.png) no-repeat center;
+        width: 227px;
+        height: 324px;
+        align-self: center;
+        float: right;
+        position: relative;
+        top: 278px;
+    }
+    h2 {
+        margin: 0;
+        font-family: $font-nunito;
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 61px;
+        letter-spacing: 0px;
+        text-align: center;
+        span {
+            color: #00730c;
+        }
+    }
+    p {
+        color: rgba(103, 103, 103, 1);
+        font-family: $font-nunito;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .row {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 30px 50px;
+        .box {
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 330px;
+            height: 366px;
+            background: linear-gradient(172.29deg, #ffffff -10.79%, #ffffff 94.04%);
+            box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+            border-radius: 10px;
+            .icon-1 {
+                background: url(images/icon-1.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-2 {
+                background: url(images/icon-2.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-3 {
+                background: url(images/icon-3.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-4 {
+                background: url(images/icon-4.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-5 {
+                background: url(images/icon-5.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-6 {
+                background: url(images/icon-6.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-7 {
+                background: url(images/icon-7.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            .icon-8 {
+                background: url(images/icon-8.png) no-repeat center;
+                width: 70px;
+                height: 70px;
+            }
+            h4 {
+                font-family: $font-nunito;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 33px;
+                letter-spacing: 0px;
+                text-align: center;
+            }
+            p {
+                width: 243px;
+                font-family: $font-nunito;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #676767;
+            }
+        }
+    }
+}
+.experience {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    .row {
+        align-items: flex-start;
+        .plant-side {
+            background: url(images/plant-side-right.png);
+            width: 297px;
+            height: 350px;
+            position: relative;
+            float: left;
+            left: -70px;
+            top: 160px;
+        }
+        .pictures {
+            width: 38%;
+            .green-back {
+                width: 450px;
+                height: 706px;
+                background-color: #00730c;
+                position: relative;
+                .big-photo {
+                    background: url(images/main-3-601x741.png) no-repeat center;
+                    width: 601px;
+                    height: 741px;
+                    position: absolute;
+                    top: 36px;
+                    left: 24px;
+                }
+                .little-photo {
+                    background: url(images/main-4-456x306.png) no-repeat center;
+                    width: 456px;
+                    height: 306px;
+                    position: absolute;
+                    z-index: 10;
+                    border: 15px solid white;
+                    border-radius: 10px;
+                    top: 561px;
+                    left: 213px;
+                }
+            }
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            h2 {
+                font-family: $font-nunito;
+                font-size: 45px;
+                font-weight: 800;
+                line-height: 61px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin-bottom: 30px;
+                span {
+                    color: #00730c;
+                }
+            }
+            p {
+                width: 670px;
+                font-family: $font-nunito;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #676767;
+                margin-bottom: 50px;
+            }
+            .little-row {
+                width: 690px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 65px 94px;
+                margin-bottom: 50px;
+                .box {
+                    display: flex;
+                    [class*="icon-"] {
+                        margin-right: 30px;
+                    }
+                    h3 {
+                        font-family: $font-nunito;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 33px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                    }
+                    .icon-1 {
+                        background: url(images/our-mis-1.png) no-repeat center;
+                        width: 67px;
+                        height: 67px;
+                    }
+                    .icon-2 {
+                        background: url(images/our-mis-2.png) no-repeat center;
+                        width: 67px;
+                        height: 67px;
+                    }
+                    .icon-3 {
+                        background: url(images/our-mis-3.png) no-repeat center;
+                        width: 67px;
+                        height: 67px;
+                    }
+                    .icon-4 {
+                        background: url(images/our-mis-4.png) no-repeat center;
+                        width: 67px;
+                        height: 67px;
+                    }
+                }
+            }
+            button {
+                width: 190px;
+                height: 50px;
+                font-family: $font-nunito;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: white;
+                background: #00730c;
+                border: 1px solid #00730c;
+                border-radius: 5px;
+                cursor: pointer;
+                &:active {
+                    background-color: #35843d;
+                }
+            }
+        }
+    }
+}
+.why-choose-us {
+    display: flex;
+    background: #0c4b35;
+    color: white;
+    position: relative;
+    .plant-side-right {
+        background: url(images/paporotnik-2.png) no-repeat center;
+        position: absolute;
+        width: 337px;
+        height: 539px;
+        align-self: flex-start;
+        right: 0;
+    }
+    .plant-side-left {
+        background: url(images/paporotnik-1.png) no-repeat;
+        position: absolute;
+        width: 236px;
+        height: 536px;
+        align-self: flex-end;
+    }
+    .container {
+        .row {
+            justify-content: space-between;
+            .info {
+                padding-top: 100px;
+                padding-bottom: 112px;
+                h2 {
+                    font-family: $font-nunito;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 61px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                }
+                p {
+                    color: rgba(255, 255, 255, 1);
+                    width: 656px;
+                    font-family: $font-nunito;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                }
+                button {
+                    width: 190px;
+                    height: 50px;
+                    font-family: $font-nunito;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    color: white;
+                    background: #00730c;
+                    border: 1px solid #00730c;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    &:active {
+                        background-color: #35843d;
+                    }
+                }
+                .box {
+                    display: flex;
+                    margin-bottom: 50px;
+                    .box-1 {
+                        margin-right: 118px;
+                    }
+                    .mini-box {
+                        display: flex;
+                        align-items: center;
+                        .icon {
+                            margin-right: 20px;
+                        }
+                        h4 {
+                            font-family: $font-nunito;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 33px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                        }
+                        .icon {
+                            background: url(images/chek-mark.png) no-repeat center;
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+            .photo-work {
+                background: url(images/why-choose-us-1.png) no-repeat center;
+                width: 672px;
+                height: 426px;
+            }
+        }
+    }
+}
+.working-process {
+    margin-bottom: 100px;
+    padding-top: 95px;
+    h1 {
+        text-align: center;
+        font-family: $font-nunito;
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 61px;
+        letter-spacing: 0px;
+        span {
+            color: #00730c;
+        }
+    }
+    p {
+        text-align: center;
+        font-family: $font-nunito;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .container {
+        .row {
+            justify-content: center;
+            margin-top: 50px;
+            .box {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                position: relative;
+                margin-right: 30px;
+                padding-right: 30px;
+                padding-top: 50px;
+                padding-left: 30px;
+                width: 330px;
+                height: 408px;
+                background: #ffffff;
+                box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+                border-radius: 10px;
+                .icons {
+                    align-items: center;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .icon-1 {
+                        background: url(images/work-proc-1.png) no-repeat center;
+                        width: 70px;
+                        height: 70px;
+                    }
+                    .number {
+                        color: #e3e3e3;
+                        font-family: $font-nunito;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 78px;
+                        line-height: 106px;
+                    }
+                }
+                .icon-2 {
+                    background: url(images/work-proc-2.png) no-repeat center;
+                    width: 70px;
+                    height: 70px;
+                }
+                .icon-3 {
+                    background: url(images/work-proc-3.png) no-repeat center;
+                    width: 70px;
+                    height: 70px;
+                }
+                .icon-4 {
+                    background: url(images/work-proc-4.png) no-repeat center;
+                    width: 70px;
+                    height: 70px;
+                }
+                .plant-bc {
+                    background: url(images/bc-plant-card.png) no-repeat center;
+                    width: 96px;
+                    height: 162px;
+                    position: absolute;
+                    right: 44px;
+                }
+                .info-in {
+                    h3 {
+                        margin: 0;
+                        font-family: $font-nunito;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 33px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                    }
+                    p {
+                        color: #676767;
+                        width: 270px;
+                        font-family: $font-nunito;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+.our-best {
+    .container {
+        .row {
+            .bc-photo-best {
+                background: url(images/our-best.png) no-repeat center;
+                width: 1410px;
+                height: 247px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 60px;
+                h3 {
+                    font-family: $font-nunito;
+                    font-size: 33px;
+                    font-weight: 700;
+                    line-height: 45px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: white;
+                    margin-right: 85px;
+                }
+                button {
+                    .icon-call {
+                        background: url(images/call-msg-green-xs.png);
+                        width: 20px;
+                        height: 20px;
+                    }
+                    color: #00730c;
+                    background: #ffffff;
+                    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
+                    border-radius: 5px;
+                    border: 1px solid white;
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 24px;
+                    width: 137px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

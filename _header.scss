@@ -29,15 +29,49 @@
         margin: 5px;
         cursor: pointer;
     }
-    .contact-info{
-        .row{
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+        justify-content: space-between;   
+    }       
+}
+header{
+    margin-top: 17px;
+    .row{
+        justify-content: space-between;
+    }
+    .box{
+        display: flex;
+    }
+    .menu{
+        ul {
+            list-style-type: none;
             display: flex;
-            flex-wrap: wrap;
-            align-items: center; 
-            justify-content: space-between;   
+            flex-direction: row;
+            li{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                font-family: $font-nunito;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0px;
+                &:active{
+                    color: #00730C;
+                    .arrow-down-black{
+                        background: url(images/arrow-down-green.png);
+                    }
+                }
+            }
+        }
+        .arrow-down-black{
+            width: 12px;
+            height: 7px;
+            background: url(images/arrow-down-black.png) no-repeat center;
+            margin: 5px;
+            cursor: pointer;    
         }
     }
-}
-.header{
-
 }
